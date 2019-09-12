@@ -31,5 +31,32 @@ $color-main:gold;
     }
     h2{
         font-size: 1em;
+        padding: 5px 0 10px 0;
+    }
+    .buy-right{
+        padding-left: 0;
+        
+        div{
+            color: #fff !important;
+            text-align: left;
+            background-color: #333;
+            padding: 20px 20px 0 20px;
+            height: 100%;
+        }
+    }
+    .buy-left {
+        padding-right: 0;
+    }
+}
+// RWD
+@media screen and (max-width:767px){
+    .buy-left{
+        padding-right: 15px !important;
+    }
+    .bur-right{
+        padding-left: 15px !important;
+        div{
+            padding-bottom:50px;
+        }
     }
 }

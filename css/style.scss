@@ -55,6 +55,22 @@ $color-main:gold;
         display:none!important;
     }
 }
+// 回到頂端按鈕
+#back-to-top{
+    background-color:gold;
+    color:white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.5);
+    text-align: center;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    cursor:pointer;
+}
+
 // RWD
 @media screen and (max-width:767px){
     .buy-left{

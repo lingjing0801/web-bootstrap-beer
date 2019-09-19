@@ -71,6 +71,10 @@ $color-main:gold;
     cursor:pointer;
 }
 
+.box{
+    height: 100vh;
+}
+
 // RWD
 @media screen and (max-width:767px){
     .buy-left{

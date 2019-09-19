@@ -31,6 +31,8 @@ $(document).ready(function () {
         // 取得目標標題的上方
         var top = $(link).offset().top;
         console.log(top);
-        $('html,body').animate({scrollTop:top},1000);
+        var speed =$(this).attr('data-speed');
+        console.log(speed);
+        $('html,body').animate({scrollTop:top},speed);
     });
 });

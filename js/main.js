@@ -35,7 +35,7 @@ $(document).ready(function () {
         // 字串 string
         var speed =$(this).attr('data-speed');
         console.log(speed);
-        // 將字串轉整數
+        // 將字串轉整數 parseInt
         $('html,body').animate({scrollTop:top},parseInt(speed));
     });
 });

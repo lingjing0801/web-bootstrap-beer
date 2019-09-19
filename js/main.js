@@ -32,8 +32,10 @@ $(document).ready(function () {
         var top = $(link).offset().top;
         console.log(top);
         // 取得目標的速度
+        // 字串 string
         var speed =$(this).attr('data-speed');
         console.log(speed);
-        $('html,body').animate({scrollTop:top},speed);
+        // 將字串轉整數
+        $('html,body').animate({scrollTop:top},parseInt(speed));
     });
 });

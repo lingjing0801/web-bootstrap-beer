@@ -25,6 +25,7 @@ $(document).ready(function () {
     });
     // --連結捲動到標題
     $('.nav-link').click(function (e) { 
+        // 取得點選連結的屬性 href 內容
         var link = $(this).attr('href');
         console.log(link);
         

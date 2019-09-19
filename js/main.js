@@ -8,4 +8,10 @@ $(document).ready(function () {
         $('html,body').animate({scrollTop:0},1000);
         
     });
+    // window 視窗
+    // scroll 捲動
+    $(window).scroll(function () { 
+        // 輸出訊息至控制台
+        console.log('捲動中...')
+    });
 });
